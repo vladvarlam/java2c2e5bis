@@ -4,6 +4,7 @@
  */
 package main;
 
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import db.Produs;
 import service.MainService;
 
@@ -30,6 +31,10 @@ public class Main {
         s.stergeProdus( p);
         s.modificaProdus(8, "ALT PRODUS", 100);
         s.getAll().forEach(System.out::println);
+        MainFrame f=new MainFrame();
+        f.setLocationRelativeTo(null);
+        f.setVisible(true);
+                
     }
     
 }
