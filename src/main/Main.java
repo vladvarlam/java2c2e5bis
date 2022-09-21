@@ -7,11 +7,7 @@ package main;
 import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import db.Produs;
 import service.MainService;
-
-/**
- *
- * @author Vlad
- */
+//si pun ceva in test branch
 public class Main {
 
     /**
